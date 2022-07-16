@@ -7,6 +7,7 @@
   body {
     margin: 60px auto;
     max-width: 800px;
+    text-align: center;
   }
   
   h1,
@@ -91,6 +92,7 @@
   }
   
   .primary-link {
+  
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
@@ -99,4 +101,12 @@
     color: var(--secondary-color);
     box-shadow: var(--box-shadow);
   }
-  
+  @media (max-width : 576px) {
+    img {
+      display: none;
+    }
+    href {
+      display: block;
+      text-align: center;
+    }
+  }
