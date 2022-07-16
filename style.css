@@ -101,12 +101,4 @@
     color: var(--secondary-color);
     box-shadow: var(--box-shadow);
   }
-  @media (max-width : 576px) {
-    img {
-      display: none;
-    }
-    href {
-      display: block;
-      text-align: center;
-    }
-  }
+ 
